@@ -1,0 +1,103 @@
+header {
+    background-color: #090620;
+}
+
+.hamburger {
+    color: #f8f7ff;
+}
+
+@media only screen and (max-width: 800px) {
+.nav-menu {
+    background-color: #3f1e80;
+   
+}
+}
+
+.nav-link {
+color: #f8f7ff;
+}
+
+.nav-link a:hover {
+    color: #482ff7 ;
+}
+
+.about-us-container {
+    background-color: #231148;
+    color: #f8f7ff;
+}
+
+.about-us-container h2 {
+    color: #dad5fd;
+}
+
+.icons-container {
+    color: #f8f7ff;
+    background-color: #f8f7ff00;
+}
+
+.devices  {
+    filter: contrast(0%);
+    
+}
+.membership-plans-container {
+    background-color:#090620 ;
+}
+
+.membership-plans {
+    background-color: #3f1e80;
+}
+
+.name-of-plan {
+    color: #dad5fd;
+}
+
+.features-item {
+    color: #f8f7ff;
+}
+
+.membership-price {
+    color: #f8f7ff;
+}
+
+.subscribe-button {
+    background-color: #dad5fd;
+    
+}
+
+.register-container {
+    background-color: #231148;
+}
+
+.register-now {
+    background-color: #A7a1d3;
+    
+}
+
+.register-now h2 {
+    color: #090620;
+}
+
+.checkbox-container label {
+    color: #090620;
+}
+
+.checkbox-container label a {
+    color: #f8f7ff;
+}
+
+.checkbox-container label a:hover {
+    color: #3f1e80;
+}
+
+.register-now button {
+    background-color:#231148 ;
+    color: #f8f7ff;
+}
+
+.btn-toggle {
+    background-color: #3f1e80;
+}
+
+.register-now button:hover {
+    background-color: #3f1e80;
+}

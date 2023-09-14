@@ -1,0 +1,120 @@
+@media only screen and (min-width: 800px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+    }
+    
+    .hamburger {
+        display: none; 
+        
+    }
+    
+    .header nav {
+      display: block;
+    }
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
+    .nav-menu {
+        display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .nav-item {
+      margin-left: 5rem;
+  }
+  
+
+    /* Section About us */¨
+
+    .about-us-container {
+      background-color: #dad5fd ;
+     
+    }
+
+    .about-us {
+      display: flex;
+      flex-direction: row;
+     
+    }
+
+    .about-h2 {
+      display: flex;
+      align-self:flex-start ;
+      margin-left: 5%;
+    }
+
+    .icons-container {
+      display: flex;
+      flex-direction: row;
+      align-items: end;
+      justify-content: space-evenly;
+      width: max-content;
+      
+    }
+
+    .devices.tablet {
+      height: 90px;
+      width: 80px;
+      margin-left: 0;
+      padding: 0;
+      
+    }
+
+    .devices.monitor {
+      margin-left: 15px;
+    }
+
+    .devices.computer {
+      margin-left: 15px;
+    }
+    .about-us-img img {
+      max-height: 80%;
+      max-width: 80%;
+      object-fit: contain;
+    }
+
+ /* Membership section */
+
+ .membership-subscriptions {
+  display: flex;
+  
+ }
+
+ .first-h2 {
+ margin: 0 0 50px 70px ;
+ text-align: start;
+ }
+
+ .first-h2-container {
+  display: block;
+  height: 40px;
+ }
+
+ .membership-plans {
+  padding: 0 2%;
+  position: relative;
+  margin: 20px auto;
+ }
+ 
+ /* Section footer */
+ footer a {
+  color: #fff;
+  margin: auto 10px;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+ 
+}
+}

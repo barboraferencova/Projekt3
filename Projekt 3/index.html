@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+ <!-- Barbora Ferencová 
+  ferencovab@seznam.cz
+  discord: Bára F. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/17a223dc2a.js" crossorigin="anonymous"></script>
+    <title>Netflux</title>
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="dark-theme.css" id="theme-link">
+</head>
+
+<body>
+    <header class="header-bar">
+        
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Netflux</a>
+            <ul class="nav-menu ">
+                <li class="nav-item">
+                    <a href="#About us" class="nav-link">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Membership plans" class="nav-link">Membership plans</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Subcription" class="nav-link">Subcription</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+                <!-- <i class="fa-solid fa-xmark"></i> -->
+
+                
+            </div>
+            
+            <button class="btn-toggle">Toggle Dark-Mode</button>
+        </nav>
+        
+     </header>
+     
+
+<!-- Section About us -->
+<a id="About us"></a>
+ <div class="about-us-container">
+    <h2 class="about-h2">About us</h2>
+    <div class="about-us">
+       
+ <div class="about-us-p"> 
+        <p>
+        At Netflux Streaming, we are passionate about bringing the world of entertainment to your fingertips. With a relentless commitment to innovation and quality, we have established ourselves as a leading streaming platform for all your favorite shows and movies. With an extensive library of content spanning various genres, we cater to diverse tastes and preferences. As we continue to evolve and adapt to the ever-changing landscape of entertainment, we remain focused on our core values of convenience, choice, and customer satisfaction. Join us on this incredible streaming adventure, and let's make your entertainment moments unforgettable. Streaming across all devices.
+        </p>
+    
+
+    <div class="icons-container">
+        <img src="icons/smartphone.png" alt="Smartphone" class="devices smartphone">
+        <img src="icons/tablet.png" alt="Tablet" class="devices tablet">
+        <img src="icons/computer.png" alt="Computer" class="devices computer">
+        <img src="icons/monitor.png" alt="Monitor" class="devices monitor">
+    </div>
+</div>
+             <div class="about-us-img"> <img src="images/pexels-cottonbro-studio-5082566.jpg" alt="" /> </div>
+             </div>
+          
+    </div>
+</div>
+
+<!-- Section Membership plans -->
+<a id="Membership plans"></a>
+<div class="membership-plans-container">
+    <div class="first-h2-container"><h2 class="first-h2">Membership plans</h2></div>
+
+    
+<div class="membership-subscriptions">
+    <div class="membership-plans">
+        
+        <h2 class="name-of-plan">Basic</h2>
+        <ul class="membership-features">
+            <li class="features-item">Unlimited ad-free movies, TV shows</li>
+            <li class="features-item">Watch on 1 supported device at a time</li>
+            <li class="features-item">Watch in HD</li>
+        </ul>
+        <span class="membership-price">7.99€ </span>
+        <button class="subscribe-button">Start now</button>
+    </div>
+
+    <div class="membership-plans">
+        
+        <h2 class="name-of-plan">Premium</h2>
+        <ul class="membership-features">
+            <li class="features-item">Unlimited ad-free movies, TV shows</li>
+            <li class="features-item">Watch on 2 supported devices at a time</li>
+            <li class="features-item">Watch in Full HD</li>
+        </ul>
+        <span class="membership-price">13.99€ </span>
+        <button class="subscribe-button">Start now</button>
+    </div>
+
+    <div class="membership-plans">
+        
+        <h2 class="name-of-plan">Deluxe</h2>
+        <ul class="membership-features">
+            <li class="features-item">Unlimited ad-free movies, TV shows</li>
+            <li class="features-item">Watch on 4 supported devices at a time</li>
+            <li class="features-item">Watch in Ultra HD</li>
+        </ul>
+        <span class="membership-price">20.99€ </span>
+        <button class="subscribe-button">Start now</button>
+    </div>
+    
+</div>
+
+</div>
+
+<!-- Section Register now form -->
+<a id="Subcription"></a>
+<div class="register-container">
+   
+        <div class="register-now">
+            <h2>Register now</h2>
+            <form onsubmit="return passwordConfirmation(event);">
+                <input type="email" name="email" id="email" placeholder="E-mail" required autocomplete="email" class="inputs">
+                <input type="password" name="password" id="password" placeholder="Password" required class="inputs">
+                <input type="password" name="password" id="confirmpassword" placeholder="Confirm password" required class="inputs"> 
+                
+            <div class="checkbox-container">
+                
+                <label class="terms-use">Agree to <a href="https://help.netflix.com/en/legal/termsofuse">terms of use</a></label>
+                <input type="checkbox" name="terms" id="terms-use" required>
+            </div>
+            <div id="message-container"></div>
+                <button type="submit">Create account</button>
+
+             </form>
+             
+        </div>
+</div>
+
+
+<!-- Section scroll to top -->
+
+<div id="scrollToTop" class="scroll-to-top">
+    <a href="#" class="scroll-to-top-link">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+</div>
+
+<!-- Section footer -->
+<a id="Contact"></a>
+<footer>
+<div class="footer-container">
+    <ul class="ul1">
+        <li><a href="https://help.netflix.com/en/legal/termsofuse">Terms of use</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Contact info</a></li>
+    </ul>
+</div>
+</footer>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
